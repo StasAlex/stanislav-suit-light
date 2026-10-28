@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="uk" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Каталог | Stanislav, Харків</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Prata&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="collection">
+
+  <section class="page-top">
+    <div class="wrap">
+      <div class="crumbs"><a href="index.html">Головна</a> / Каталог</div>
+      <h1>Каталог</h1>
+      <p class="page-sub"></p>
+      <div class="cat-tabs" role="group" aria-label="Категорії"></div>
+    </div>
+  </section>
+
+  <div class="wrap catalog">
+    <!-- Filters: sidebar on desktop, drawer on mobile -->
+    <aside class="filters" aria-label="Фільтри">
+      <button class="filters-close" aria-label="Закрити фільтри">×</button>
+      <div class="fgroup"><h4>Категорія</h4><div class="checks" id="f-cats"></div></div>
+      <div class="fgroup"><h4>Колір</h4><div class="swatches" id="f-colors"></div></div>
+      <div class="fgroup"><h4>Розмір</h4><div class="chips" id="f-sizes"></div></div>
+      <div class="fgroup">
+        <h4>Ціна</h4>
+        <div class="price-range">
+          <div class="rail"><i></i></div>
+          <input type="range" id="p-min" aria-label="Мінімальна ціна">
+          <input type="range" id="p-max" aria-label="Максимальна ціна">
+        </div>
+        <div class="price-vals" id="p-vals"></div>
+      </div>
+      <button class="filters-reset" data-reset>Скинути фільтри</button>
+    </aside>
+
+    <div>
+      <div class="toolbar">
+        <button class="filter-open">Фільтри</button>
+        <span class="result-count"></span>
+        <select id="sort" aria-label="Сортування">
+          <option value="popular">Спершу популярні</option>
+          <option value="new">Спершу новинки</option>
+          <option value="cheap">Дешевші спершу</option>
+          <option value="expensive">Дорожчі спершу</option>
+        </select>
+      </div>
+      <div class="grid"></div>
+    </div>
+  </div>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

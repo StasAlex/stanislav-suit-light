@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 112" role="img" aria-label="Stanislav, made in Ukraine">
+  <g transform="translate(46 46)">
+    <rect x="-31" y="-31" width="62" height="62" transform="rotate(45)" fill="#C8201F"/>
+    <rect x="-24" y="-24" width="48" height="48" transform="rotate(45)" fill="#fff"/>
+    <path d="M10.5 -12.5 C 6 -17, -9 -17, -10 -8 C -11 0, 10 -1, 10.5 7 C 11 16, -5 18, -11.5 12" fill="none" stroke="#C8201F" stroke-width="4.2" stroke-linecap="round"/>
+  </g>
+  <rect x="104" y="18" width="412" height="56" fill="#C8201F"/>
+  <text x="310" y="58" text-anchor="middle" fill="#fff" font-family="Manrope, Arial, sans-serif" font-weight="600" font-size="34" letter-spacing="10">STANISLAV</text>
+  <text x="514" y="100" text-anchor="end" fill="#C8201F" font-family="Manrope, Arial, sans-serif" font-weight="500" font-size="17" letter-spacing="1">made in ukraine</text>
+</svg>
