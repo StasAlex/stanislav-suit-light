@@ -419,7 +419,7 @@ h3 {
   }
 
   & h1 {
-    font-size: clamp(44px, 6.4vw, 104px);
+    font-size: clamp(44px, min(6.4vw, 9.5svh), 104px);
 
     & .line {
       display: block;
@@ -461,8 +461,7 @@ h3 {
     justify-content: center;
 
     & img {
-      width: 100%;
-      max-width: 900px;
+      width: min(100%, 900px, calc(100svh - var(--header-h) - 40px));
       aspect-ratio: 1;
       object-fit: cover;
       clip-path: circle(0% at 50% 30%);
@@ -524,6 +523,7 @@ h3 {
       margin: 0 calc(var(--gutter) * -1);
 
       & img {
+        width: 100%;
         max-width: 560px;
         max-height: 58svh;
         object-position: 50% 15%;
