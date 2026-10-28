@@ -63,7 +63,7 @@ window.COLORS = {
     { id: 'bomber-black', cat: 'outer', name: 'Бомбер чорний', color: 'black', price: 3600, isNew: true, imgs: 2, group: 'bomber', text: 'Бомбер на блискавці з трикотажними манжетами. Легкий, під піджак не потрібен: носиться з брюками і поло.', care: 'Делікатне прання при 30°.' }
   ];
 
-  const singleShot = ['tuxedo-black', 'bomber-black'];
+  const singleShot = ['tuxedo-black', 'bomber-black', 'suit-brown', 'suit-chocolate', 'suit-graphite', 'suit-beige', 'suit-taupe'];
 
   P.forEach(p => {
     if (singleShot.includes(p.id)) p.imgs = 1.5;
